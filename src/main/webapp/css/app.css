@@ -1,0 +1,3 @@
+.k-list-container .k-button.k-state-focused, .k-list-container .k-button:focus {
+  background-color: #008dcd;
+}

@@ -14,6 +14,7 @@
     <version>1.0-SNAPSHOT</version>
     <url>http://maven.apache.org</url>
     <build>
+        <finalName>ROOT</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -144,12 +145,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.bouncycastle</groupId>
-                    <artifactId>bcprov-jdk15on</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.glassfish</groupId>
@@ -180,6 +175,12 @@
             <groupId>io.cronapp</groupId>
             <artifactId>cronapp-reports-exec</artifactId>
             <version>1.23.0-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.bouncycastle</groupId>
+                    <artifactId></artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>io.cronapp</groupId>

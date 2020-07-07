@@ -178,7 +178,7 @@
             <exclusions>
                 <exclusion>
                     <groupId>org.bouncycastle</groupId>
-                    <artifactId></artifactId>
+                    <artifactId>*</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
